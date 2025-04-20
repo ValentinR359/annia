@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Annia | Clínica Integral</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: url('https://github.com/Per-Arredondo/Clinica_medica/blob/main/Fondo%20JPG.jpeg?raw=true') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .logo-top {
+      text-align: center;
+      padding: 30px 0 10px 0;
+    }
+    .logo-top img {
+      max-width: 180px;
+    }
+    .hero-image {
+      background: url('https://github.com/ValentinR359/portada/blob/main/Portada.png?raw=true') no-repeat center;
+      background-size: cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #5c4033;
+      text-shadow: 1px 1px 2px #fff;
+      margin-bottom: 30px;
+    }
+    .hero-image h1 {
+      background: rgba(255, 255, 255, 0.7);
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+    .section {
+      background-color: #fff;
+      border-radius: 15px;
+      padding: 25px;
+      margin: 30px auto;
+      max-width: 900px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.05);
+    }
+    h2, h4 {
+      color: #ba7c87;
+      font-weight: bold;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .btn-primary {
+      background-color: #ba7c87;
+      border: none;
+    }
+    .btn-primary:hover {
+      background-color: #a1646e;
+    }
+    .form-control, .form-select {
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="logo-top">
+  <img src="https://raw.githubusercontent.com/ValentinR359/imglogo-/refs/heads/main/Logo%20Annia.PNG?raw=true" alt="Logo Annia" />
+</div>
+
+<div class="hero-image">
+  <h1>Clínica Integral para la Mujer</h1>
+</div>
+
+<div class="section">
+  <h2>¿Quiénes Somos?</h2>
+  <p>Clínica especializada en salud femenina: un espacio de confianza, bienestar y empoderamiento para las mujeres.</p>
+</div>
+
+<div class="section">
+  <h4>🌸 Misión</h4>
+  <p>Ser el espacio donde cada mujer se sienta escuchada, cuidada y valorada, ofreciendo soluciones médicas y estéticas que mejoren su salud y bienestar integral.</p>
+  <h4>🌟 Visión</h4>
+  <p>Crear una comunidad de mujeres que encuentran en nuestra clínica un aliado para su salud, autoestima y desarrollo personal.</p>
+  <h4>💖 Valores</h4>
+  <ul>
+    <li>🤝 Empatía</li>
+    <li>🏥 Excelencia Médica</li>
+    <li>🧘‍♀️ Bienestar Integral</li>
+    <li>💡 Innovación</li>
+    <li>🛡️ Confianza y Seguridad</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h4>📅 Agenda tu cita</h4>
+  <form>
+    <div class="mb-3">
+      <label class="form-label">👩 Nombre completo</label>
+      <input type="text" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">📞 Teléfono</label>
+      <input type="tel" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">📧 Correo electrónico</label>
+      <input type="email" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">🏥 Especialidad</label>
+      <select class="form-select" required>
+        <option>Medicina General</option>
+        <option>Ginecología</option>
+        <option>Dermatología</option>
+        <option>Pediatría</option>
+        <option>Cardiología</option>
+        <option>Cirugía Plástica</option>
+        <option>Atención Psicológica</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">📆 Fecha</label>
+      <input type="date" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">⏰ Hora</label>
+      <input type="time" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">💬 Comentarios</label>
+      <textarea class="form-control" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary w-100">Agendar cita</button>
+  </form>
+</div>
+
+</body>
+</html>
